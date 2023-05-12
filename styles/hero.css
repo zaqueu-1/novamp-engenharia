@@ -1,0 +1,69 @@
+.hero-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.hero-bg {
+    overflow: hidden;
+    z-index: -1;
+    position: relative;
+    opacity: .9;
+}
+
+.hero-scrolling {
+    background: url("/images/bg.jpg") repeat-x;
+    height: 850px;
+    width: 2100px;
+    animation: slide 40s linear infinite;
+    z-index: -1;
+    filter: contrast(1.1) blur(1px);
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+
+    }
+    100% {
+        transform: translate3d(-700px, 0, 0); /* The image width */
+    }
+  }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    gap: 2rem;
+    z-index: 1;
+}
+
+.hero-img {
+    width: 360px;
+    height: 300px;
+}
+
+.hero-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 4rem;
+    color: #5E5E5E;
+}
+
+.hero-subtitle {
+    margin-top: -4.5rem;
+    font-size: 1.5rem;
+    color: #6568B9;
+}

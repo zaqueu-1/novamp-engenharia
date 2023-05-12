@@ -1,0 +1,44 @@
+.services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #6568B9;
+    padding-bottom: 8rem;
+}
+
+.services-title {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+    color: white;
+}
+
+.services-divider {
+    width: 7%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: .5rem;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    max-width: 700px;
+    margin-top: 2rem;
+}
+
+.service {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .25rem;
+    background-color: white;
+    padding: 0 .5rem;
+    height: 40px;
+    border-radius: 12px;
+    color: #6568B9;;
+}
