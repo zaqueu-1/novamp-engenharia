@@ -8,7 +8,7 @@
     top: 0;
     right: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: #222;
     z-index: 1;
     backdrop-filter: blur(2px);
     -webkit-backdrop-filter: blur(2px);
@@ -25,7 +25,7 @@
 }
 
 .wp-icon {
-    color: green;
+    color: rgb(255, 255, 255);
     font-size: 1.5rem;
 }
 

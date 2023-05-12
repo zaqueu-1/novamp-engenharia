@@ -6,6 +6,7 @@ import About from './sections/About'
 import Hero from './sections/Hero'
 import Contact from './sections/Contact'
 import Header from './components/Header'
+import Footer from './components/Footer'
 
 export default function Home() {
 
@@ -44,6 +45,7 @@ export default function Home() {
         <section ref={contactSection}>
           <Contact />
         </section>
+        <Footer scroll={scroll} />
       </main>
 
     </div>
