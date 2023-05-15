@@ -24,7 +24,8 @@
 
 .services {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
     flex-wrap: wrap;
     gap: 1rem;
     max-width: 700px;
@@ -36,9 +37,76 @@
     justify-content: flex-start;
     align-items: center;
     gap: .25rem;
-    background-color: white;
     padding: 0 .5rem;
     height: 40px;
     border-radius: 12px;
-    color: #6568B9;;
+    background-color: white;
+    color: #6568B9;
+}
+
+.photos-divider {
+    margin: 4rem 0;
+    width: 70%;
+    height: 1px;
+    background-color: #cecece;
+}
+
+.videos-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.video {
+    width: 250px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+
+
+
+@media only screen and (max-width:899px) {
+    .services-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        padding-bottom: 0rem;
+        margin: 45rem 0;
+    }
+    
+    .services-title {
+        font-size: 1.5rem;
+    }
+    
+    .services {
+        justify-content: flex-start;
+        align-items: center;
+        gap: .25rem;
+        max-width: 700px;
+        margin-top: 2rem;
+    }
+
+    .services-divider {
+        width: 30%;
+        margin-bottom: -.5rem;
+    }
+    
+    .service {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: .25rem;
+        background-color: white;
+        padding: 0 .5rem;
+        height: 40px;
+        border-radius: 12px;
+        color: #6568B9;
+        font-size: .8rem;
+    }
+    
 }

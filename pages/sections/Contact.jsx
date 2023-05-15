@@ -20,8 +20,6 @@ function Contact() {
         </a> 
     </div>
 
-    <span className='photos-divider'></span>
-
     </div>
   )
 }

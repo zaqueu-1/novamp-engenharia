@@ -5,7 +5,6 @@ import Services from './sections/Services'
 import About from './sections/About'
 import Hero from './sections/Hero'
 import Contact from './sections/Contact'
-import Header from './components/Header'
 import Footer from './components/Footer'
 
 export default function Home() {
@@ -18,8 +17,8 @@ export default function Home() {
   const scroll = (section) => {
     if (section === "hero") window.scrollTo({ top: heroSection.current.offsetTop, behavior: "smooth" })
     else if (section === "about") window.scrollTo({ top: aboutSection.current.offsetTop-120, behavior: "smooth" })
-    else if (section === "services") window.scrollTo({ top: servicesSection.current.offsetTop, behavior: "smooth" })
-    else if (section === "contact") window.scrollTo({ top: contactSection.current.offsetTop-248, behavior: "smooth" })
+    else if (section === "services") window.scrollTo({ top: servicesSection.current.offsetTop-120, behavior: "smooth" })
+    else if (section === "contact") window.scrollTo({ top: contactSection.current.offsetTop+200, behavior: "smooth" })
   }
 
   return (
@@ -31,7 +30,6 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header />
         <Navbar scroll={scroll} />
         <section ref={heroSection}>
           <Hero />

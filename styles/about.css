@@ -3,26 +3,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem;
+    padding: 6rem;
+    height: 100vh;
+    margin: 5rem 0;
 }
 
 .about-title {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 700;
     margin-bottom: .5rem;
-    color: #555;
-}
-
-.about-divider {
-    width: 20%;
-    height: 3px;
-    background-color: #6568B9;
-    margin-bottom: .5rem;
+    color: #333;
 }
 
 .about-sub {
     text-align: center;
-    max-width: 1200px;
+    max-width: 850px;
     flex-wrap: wrap;
     color: #555;
 }
@@ -53,4 +48,41 @@
     flex-wrap: wrap;
     color: #555;
     font-size: .8rem;
+}
+
+@media only screen and (max-width: 899px) {
+    .about-container {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .about-title {
+        font-size: 1.5rem;
+    }
+    
+    .novamp {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: 2rem 0;
+    }
+    
+    .matheus, .igor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .matheus img, .igor img {
+        border-radius:3.5%;
+        width: 250px;
+        height: 230px;
+    }
+    
+    .mp-sub {
+        font-size: .75rem;
+    }
 }

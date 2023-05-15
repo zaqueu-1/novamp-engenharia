@@ -4,6 +4,8 @@
     justify-content: center;
     align-items: center;
     padding: 3rem;
+    height: 100vh;
+    margin-top: 8rem;
 }
 
 .contact-title {
@@ -58,12 +60,4 @@
 
 .wp-icon-c {
     font-size: 1.8rem;
-}
-
-.photos-divider {
-    margin-top: 2rem;
-    width: 70%;
-    height: 1px;
-    background-color: #cecece;
-    margin-bottom: 2rem;
 }
