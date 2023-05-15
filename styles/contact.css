@@ -19,6 +19,7 @@
     font-size: 1.2rem;
     color: #555;
     font-weight: 100;
+    text-align: center;
 }
 
 .contact-wrapper {
@@ -61,4 +62,15 @@
 
 .wp-icon-c {
     font-size: 1.8rem;
+}
+
+@media only screen and (max-width:899px) {
+    .contact-container p {
+        margin-top: -.5rem;
+        font-size: 1rem;
+    }
+
+    .contact-title {
+        font-size: 1.5rem;
+    }
 }
