@@ -1,11 +1,12 @@
 import Head from 'next/head'
 import Navbar from './components/Navbar'
-import { useRef } from 'react'
+import { useRef, useEffect } from 'react'
 import Services from './sections/Services'
 import About from './sections/About'
 import Hero from './sections/Hero'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
+import AOS from 'aos'
 
 export default function Home() {
 
@@ -20,6 +21,10 @@ export default function Home() {
     else if (section === "services") window.scrollTo({ top: servicesSection.current.offsetTop-120, behavior: "smooth" })
     else if (section === "contact") window.scrollTo({ top: contactSection.current.offsetTop+200, behavior: "smooth" })
   }
+
+  useEffect(() =>{
+    AOS.init()
+  }, [])
 
   return (
     <div>

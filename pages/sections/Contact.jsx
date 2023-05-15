@@ -5,10 +5,10 @@ import { BsInstagram } from 'react-icons/bs'
 function Contact() {
   return (
     <div className='contact-container'>
-      <h1 className='contact-title'>CONTATO</h1>
-      <span className='contact-divider'></span>
+      <h1 data-aos={"fade-left"} data-aos-duration={"1200"} className='contact-title'>Contato</h1>
+      <p data-aos={"fade-right"} data-aos-duration={"1500"}>Precisa de um orçamento? Fale conosco!</p>
 
-    <div className="contact-wrapper">
+    <div data-aos={"fade-up"} data-aos-duration={"1800"} className="contact-wrapper">
         <a className='contact-wp' href='https://wa.me/5524981288319' target='_blank'>
               <RiWhatsappLine className='wp-icon-c'/>
               (24) 98128-8319

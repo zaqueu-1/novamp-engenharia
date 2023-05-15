@@ -6,14 +6,12 @@ function Footer({scroll}) {
   return (
     <div className='footer'>
         <div className="footer-logo">
-            <Image src="/images/logo.png" width='90' height='80' alt="Logo Novamp Engenharia" />
-            <div className="footer-innertext">
-                <p>Nova <span style={{color:"#6568B9"}}>MP</span></p>
-                <span id='footer-span' style={{color:"#6568B9"}}>Engenharia</span>
-            </div>
+            <Image src="/images/logo2.png" width='90' height='80' alt="Logo Novamp Engenharia" />
         </div>
 
-        <div className="footer-divider"></div>
+        <div className="footer-catch">
+          <p>Nova MP Engenharia  ©2023 Todos os Direitos Reservados</p>
+        </div>
 
         <div className="footer-contact">
             <p className='footer-title'>FALE CONOSCO</p>
@@ -22,18 +20,6 @@ function Footer({scroll}) {
               (24) 98128-8319
             </a>
         </div>
-
-        <div className="footer-divider"></div>
-
-        <div className="footer-menu">
-            <>
-                <li><a className='footer-link' onClick={() => scroll('hero')}>Home</a></li>
-                <li><a className='footer-link' onClick={() => scroll('about')}>Sobre</a></li>
-                <li><a className='footer-link' onClick={() => scroll('services')}>Serviços</a></li>
-                <li><a className='footer-link' onClick={() => scroll('contact')}>Contato</a></li>
-            </>
-        </div>
-
     </div>
   )
 }

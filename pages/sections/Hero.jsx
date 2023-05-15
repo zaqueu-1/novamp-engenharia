@@ -6,7 +6,7 @@ function Hero() {
       <div className='hero-bg'>
         <div className="hero-scrolling"></div>
       </div>
-      <div className='hero-container'>
+      <div data-aos={"fade-up"} data-aos-duration={"1200"} className='hero-container'>
         <div className="hero">
           <div className="hero-texts">
             <h1 className='hero-title'>Nova <span style={{color:'#6568B9'}}>MP</span></h1>

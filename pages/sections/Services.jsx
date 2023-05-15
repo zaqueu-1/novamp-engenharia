@@ -8,29 +8,27 @@ function Services() {
     'Projetos3D', 'Projetos arquitetônicos', 'Projetos de estruturas metálicas', 'Projetos fotovoltaicos',
     'Legalizações', 'Consultorias', 'Regularização de imóveis']
 
-    const videos = ['v1.mp4', 'v2.mp4', 'v3.mp4', 'v4.mp4', 'v5.mp4', 'v6.mp4', 'v8.mp4', 'v9.mp4', ]
-
   return (
     <div className='services-container'>
-      <h1 className='services-title'>SERVIÇOS</h1>
-      <span className='services-divider'></span>
+      <h1 data-aos={"fade-up"} data-aos-duration={"1200"} className='services-title'>Serviços</h1>
       <div className='services'>
-        {services.map((service, index) => (
-          <div key={index} className='service'>
-            <FaTools className='service-icon' />
-            <h3>{service}</h3>
+        <div className="services-wrapper">
+          {services.map((service, index) => (
+            <div data-aos={"fade-left"} data-aos-duration={"1500"}  key={index} className='service'>
+              <FaTools className='service-icon' />
+              <h3>{service}</h3>
+            </div>
+          ))}
+        </div>
+        <div data-aos={"fade-up"} data-aos-duration={"1200"} className="carousel">
+          <div className="inner">
+            <video src='/images/video.mp4' height='400' width='300' autoplay muted controls />
+            <video src='/images/video2.mp4' height='400' width='300' autoplay muted controls />
+            <video src='/images/video3.mp4' height='400' width='300' autoplay muted controls />
           </div>
-        ))}
-      </div>
+        </div>
 
-      <div className='photos-divider' />
 
-      <div className="videos-container">
-      {videos.map((video, index) => (
-          <div key={index} className='video-wrapper'>
-            <video className='video' src={`/images/${video}`} controls />
-          </div>
-        ))}
       </div>
     </div>
   )

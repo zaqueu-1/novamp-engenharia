@@ -31,12 +31,17 @@
     margin-left: 3rem;
 }
 
+.minilogo-bg {
+    margin-left: 3rem;
+    filter: brightness(0) saturate(100%);
+
+}
+
 .nav-links {
     display: flex;
     gap: 1.5rem;
     margin-right: 2rem;
     color: white;
-    transition: all 0.1s ease-in-out;
 }
 
 .nav-links-bg {
@@ -44,7 +49,6 @@
     gap: 1.5rem;
     margin-right: 2rem;
     color: #333;
-    transition: all 0.1s ease-in-out;
 }
 
 .nav-link {
@@ -72,12 +76,10 @@
     gap: .5rem;
     margin-right: 2rem;
     color: #333;
-    transition: all 0.3s ease-in-out;
 }
 
 .wp-icon,.ig-icon {
     font-size: 1.35rem;
-    transition: all 0.3s ease-in-out;
 }
 
 .wp-icon {
@@ -90,16 +92,29 @@
 }
 
 @media only screen and (max-width:899px) {
-    .navbar {
+    .navbar, .navbar-bg {
         height: 60px;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .minilogo, .minilogo-bg {
+        width: 60px;
+        height: 50px;
+    }
+
+    .ig-icon {
+        font-size: 1rem;
+    }
+
+    .wp-icon {
+        font-size: 1.2rem;
     }
     
-    .nav-links {
+    .nav-links, .nav-links-bg {
         display: flex;
         gap: 1.2rem;
-        margin-right: 0;
+        margin-right: 0rem;
     }
     
     .nav-link {

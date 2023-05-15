@@ -4,28 +4,26 @@
     justify-content: center;
     align-items: center;
     padding: 3rem;
-    height: 100vh;
-    margin-top: 8rem;
+    height: 50vh;
 }
 
 .contact-title {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 500;
     margin-bottom: .5rem;
     color: #555;
 }
 
-.contact-divider {
-    width: 20%;
-    height: 3px;
-    background-color: #6568B9;
-    margin-bottom: .5rem;
+.contact-container p {
+    margin-top: -.5rem;
+    font-size: 1.2rem;
 }
 
 .contact-wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: -1rem;
 }
 
 .contact-wp {
