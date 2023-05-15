@@ -24,7 +24,7 @@ function Navbar({scroll}) {
   return (
     <div className={color ? 'navbar-bg' : 'navbar'}>
         <div className="logo-wrapper">
-            <Image className='minilogo' src="/images/logo.png" width='70' height='60' alt="Logo Novamp Engenharia" />
+            <Image className='minilogo' src="/images/logo2.png" width='70' height='60' alt="Logo Novamp Engenharia" />
         </div>
         <div className={color ? 'nav-links-bg' : 'nav-links'}>
           <a className='nav-link' onClick={() => scroll('hero')}>Home</a>
