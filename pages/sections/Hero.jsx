@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Hero() {
   return (
@@ -9,8 +10,7 @@ function Hero() {
       <div data-aos={"fade-up"} data-aos-duration={"1200"} className='hero-container'>
         <div className="hero">
           <div className="hero-texts">
-            <h1 className='hero-title'>Nova MP</h1>
-            <p className='hero-subtitle'>Engenharia</p>
+            <Image className='logo-main' src='/images/name-logo.png' height='300' width='400' />
           </div>
         </div>
       </div>

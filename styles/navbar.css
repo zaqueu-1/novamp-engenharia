@@ -7,8 +7,6 @@
     right: 0;
     width: 100vw;
     z-index: 1;
-    backdrop-filter: blur(1px);
-    -webkit-backdrop-filter: blur(1px);
     transition: all 0.3s ease-in-out;
 }
 
