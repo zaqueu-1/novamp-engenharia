@@ -11,12 +11,14 @@
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: .5rem;
-    color: #555;
+    color: #333;
 }
 
 .contact-container p {
     margin-top: -.5rem;
     font-size: 1.2rem;
+    color: #555;
+    font-weight: 100;
 }
 
 .contact-wrapper {
@@ -47,6 +49,7 @@
     margin-top: 0;
     padding: .5rem .75rem;
     color: #555555;
+    font-weight: 100;
     font-size: 1rem;
     gap: .25rem;
     transition: all 0.3s ease-in-out;

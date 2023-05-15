@@ -18,7 +18,7 @@
 }
 
 .hero-scrolling {
-    background: url("/images/bg2.png") repeat-x;
+    background: url("/images/bgn.jpg") repeat-x;
     background-size: cover;
     height: 950px;
     max-width: 2100px;
@@ -47,15 +47,15 @@
 
 .hero-title {
     font-size: 4rem;
-    color: #5E5E5E;
-    text-shadow: 2px 1px 4px rgba(255, 255, 255, 0.367);
+    color: white;
+    text-shadow: 2px 1px 4px rgba(27, 27, 27, 0.367);
 }
 
 .hero-subtitle {
     margin-top: -4.25rem;
     font-size: 1.5rem;
-    color: #6568B9;
-    text-shadow: 2px 1px 4px rgba(255, 255, 255, 0.266);
+    color: white;
+    text-shadow: 2px 1px 4px rgba(27, 27, 27, 0.367);
 }
 
 @media only screen and (max-width: 899px) {

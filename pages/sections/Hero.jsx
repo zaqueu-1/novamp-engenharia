@@ -9,7 +9,7 @@ function Hero() {
       <div data-aos={"fade-up"} data-aos-duration={"1200"} className='hero-container'>
         <div className="hero">
           <div className="hero-texts">
-            <h1 className='hero-title'>Nova <span style={{color:'#6568B9'}}>MP</span></h1>
+            <h1 className='hero-title'>Nova MP</h1>
             <p className='hero-subtitle'>Engenharia</p>
           </div>
         </div>
