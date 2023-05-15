@@ -5,6 +5,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  min-width: 330px;
 }
 
 a {
@@ -18,5 +20,5 @@ a {
 
 section {
   width: 100%;
-  min-width: 315px;
+  min-width: 330px;
 }
