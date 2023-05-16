@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { RiWhatsappLine } from 'react-icons/ri'
 import { TbBrowserCheck } from 'react-icons/tb'
-import Footer from '../components/Footer'
 
 function index() {
   return (
