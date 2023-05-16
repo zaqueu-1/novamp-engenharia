@@ -10,12 +10,12 @@ function About() {
 
       <div data-aos={"fade-up"} data-aos-duration={"1200"}  className="novamp">
         <div className="matheus">
-          <Image src='/images/igor1.jpg' width='296' height='272' />
+          <Image src='/images/igor4.jpg' width='272' height='272' />
           <p className='mp-sub'>Igor, engenheiro civil, traz consigo um profundo conhecimento em projetos de construção, estruturas e infraestrutura urbana.</p>
         </div>
 
         <div className="igor">
-          <Image src='/images/matheus1.jpg' width='296' height='272' />
+          <Image src='/images/matheus5.jpg' width='272' height='272' />
           <p className='mp-sub'>Matheus, por sua vez, é engenheiro eletricista e possui expertise em sistemas elétricos, automação e energias renováveis.</p>
         </div>
       </div>

@@ -18,9 +18,8 @@
 }
 
 .parallax {
-    background: url("https://i.imgur.com/3mC6Yh6.jpg");
+    background: url("/images/bgn.jpg");
     height: 950px;
-    max-width: 2100px;
     z-index: -1;
     filter: contrast(0.65) brightness(0.85);
     background-attachment: fixed;

@@ -69,6 +69,7 @@
         justify-content: center;
         width: 80%;
         margin-top: 2rem;
+        gap: 1.5rem;
     }
     
     .matheus, .igor {
@@ -80,8 +81,8 @@
     
     .matheus img, .igor img {
         border-radius:3.5%;
-        width: 250px;
-        height: 230px;
+        width: 220px;
+        height: 220px;
     }
     
     .mp-sub {
