@@ -17,9 +17,9 @@ export default function Home() {
 
   const scroll = (section) => {
     if (section === "hero") window.scrollTo({ top: heroSection.current.offsetTop, behavior: "smooth" })
-    else if (section === "about") window.scrollTo({ top: aboutSection.current.offsetTop-120, behavior: "smooth" })
-    else if (section === "services") window.scrollTo({ top: servicesSection.current.offsetTop-120, behavior: "smooth" })
-    else if (section === "contact") window.scrollTo({ top: contactSection.current.offsetTop+200, behavior: "smooth" })
+    else if (section === "about") window.scrollTo({ top: aboutSection.current.offsetTop, behavior: "smooth" })
+    else if (section === "services") window.scrollTo({ top: servicesSection.current.offsetTop, behavior: "smooth" })
+    else if (section === "contact") window.scrollTo({ top: contactSection.current.offsetTop, behavior: "smooth" })
   }
 
   useEffect(() =>{

@@ -55,10 +55,12 @@
     font-weight: 300;
     transition: all 0.2s ease-in-out;
     font-weight: 300;
+    border-bottom: 2px solid transparent;
 }
 
 .nav-link:hover {
-    color: #6568B9;
+    color: #333;
+    border-bottom: 2px solid;
 }
 
 .social-media {
@@ -78,6 +80,7 @@
 
 .wp-icon,.ig-icon {
     font-size: 1.35rem;
+    transition: all 0.1s ease-in-out;
 }
 
 .wp-icon {
@@ -85,7 +88,7 @@
 }
 
 .wp-icon:hover, .ig-icon:hover {
-    color: #6568B9;
+    color: #333;
     transform: scale(1.05);
 }
 

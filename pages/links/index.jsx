@@ -23,6 +23,11 @@ function index() {
                     Site Oficial
                 </Link>
             </div>
+
+            <div className="bio-container">
+                <Image className='bio-logo' src='/images/nvmp.jpg' width='200' height='200' />
+                <p>Bem-vindo à Nova MP, uma empresa de engenharia que nasceu de uma parceria resultado da junção dos pilares fundamentais da construção civil, a fim de proporcionar a uma experiência completa desde a projeção até execução dos projetos. Com uma equipe especializada e apaixonada pelo que faz, estamos comprometidos em superar as expectativas de nossos clientes, sempre com o máximo de excelência.</p>
+            </div>
         </div>
         <div className="links-footer">
             <p>Nova MP Engenharia  ©2023 Todos os Direitos Reservados</p>
