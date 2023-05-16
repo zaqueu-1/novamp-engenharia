@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Navbar from './components/Navbar'
-import { useRef, useEffect } from 'react'
+import { useRef, useEffect, useState } from 'react'
 import Services from './sections/Services'
 import About from './sections/About'
 import Hero from './sections/Hero'
 import Contact from './sections/Contact'
 import Footer from './components/Footer'
 import AOS from 'aos'
+import Loader from './components/Loader'
 
 export default function Home() {
 
@@ -26,6 +27,15 @@ export default function Home() {
     AOS.init()
   }, [])
 
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+
   return (
     <div>
       <Head>
@@ -35,20 +45,24 @@ export default function Home() {
       </Head>
 
       <main>
-        <Navbar scroll={scroll} />
-        <section ref={heroSection}>
-          <Hero />
-        </section>
-        <section ref={aboutSection}>
-          <About />
-        </section>
-        <section ref={servicesSection}>
-          <Services />
-        </section>
-        <section ref={contactSection}>
-          <Contact />
-        </section>
-        <Footer scroll={scroll} />
+        {loading ? <Loader /> : (
+          <>
+              <Navbar scroll={scroll} />
+              <section ref={heroSection}>
+                <Hero />
+              </section>
+              <section ref={aboutSection}>
+                <About />
+              </section>
+              <section ref={servicesSection}>
+                <Services />
+              </section>
+              <section ref={contactSection}>
+                <Contact />
+              </section>
+              <Footer scroll={scroll} />
+          </>
+        )}
       </main>
 
     </div>

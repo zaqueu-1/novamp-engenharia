@@ -18,7 +18,7 @@
 }
 
 .parallax {
-    background: url("/images/bgn.jpg");
+    background: url("https://i.imgur.com/3mC6Yh6.jpg");
     height: 950px;
     max-width: 2100px;
     z-index: -1;
@@ -48,7 +48,7 @@
     height: 150px;
 }
 
-.logo-main {
+.logo-main, .spinner {
     filter:drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.613))
 }
 
