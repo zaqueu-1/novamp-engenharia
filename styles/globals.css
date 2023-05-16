@@ -6,6 +6,7 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
+  overflow: overlay;
   min-width: 330px;
 }
 
@@ -22,3 +23,21 @@ section {
   width: 100%;
   min-width: 330px;
 }
+
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #333 #ffffff00;
+  }
+
+  *::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #333;
+    border-radius: 10px;
+  }

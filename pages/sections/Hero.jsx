@@ -5,7 +5,7 @@ function Hero() {
   return (
     <>
       <div className='hero-bg'>
-        <div className="hero-scrolling"></div>
+        <div className="parallax"></div>
       </div>
       <div data-aos={"fade-up"} data-aos-duration={"1200"} className='hero-container'>
         <div className="hero">

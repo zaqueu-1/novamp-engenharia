@@ -9,17 +9,18 @@ function Services() {
     'Legalizações', 'Consultorias', 'Regularização de imóveis']
 
   return (
-    <div className='services-container'>
-      <h1 data-aos={"fade-up"} data-aos-duration={"1200"} className='services-title'>Serviços</h1>
-      <div className='services'>
-        <div className="services-wrapper">
-          {services.map((service, index) => (
-            <div data-aos={"fade-left"} data-aos-duration={"1500"}  key={index} className='service'>
-              <FaTools className='service-icon' />
-              <h3>{service}</h3>
-            </div>
-          ))}
-        </div>
+    <>
+        <div className='services-container'>
+          <h1 data-aos={"fade-up"} data-aos-duration={"1200"} className='services-title'>Serviços</h1>
+        <div className='services'>
+          <div className="services-wrapper">
+            {services.map((service, index) => (
+              <div data-aos={"fade-left"} data-aos-duration={"1500"}  key={index} className='service'>
+                <FaTools className='service-icon' />
+                <h3>{service}</h3>
+              </div>
+            ))}
+          </div>
         <div data-aos={"fade-up"} data-aos-duration={"1200"} className="carousel">
           <div className="inner">
             <video src='/images/video.mp4' height='400' width='300' autoplay muted controls />
@@ -27,10 +28,9 @@ function Services() {
             <video src='/images/video3.mp4' height='400' width='300' autoplay muted controls />
           </div>
         </div>
-
-
       </div>
     </div>
+    </>
   )
 }
 

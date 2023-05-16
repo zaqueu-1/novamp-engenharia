@@ -17,13 +17,16 @@
     opacity: .9;
 }
 
-.hero-scrolling {
-    background: url("/images/bgn.jpg") repeat-x;
-    background-size: cover;
+.parallax {
+    background: url("/images/bgn.jpg");
     height: 950px;
     max-width: 2100px;
     z-index: -1;
     filter: contrast(0.65) brightness(0.85);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero {
@@ -57,11 +60,9 @@
         justify-content: center;
     }
 
-    .hero-scrolling {
-        background: url("/images/bgn.jpg") repeat-x;
+    .parallax {
         background-position: 50%;
-        z-index: -1;
-        filter: contrast(0.65) brightness(0.85);
+        background-attachment: scroll;
     }
 
     .logo-main {

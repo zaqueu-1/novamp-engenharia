@@ -13,6 +13,7 @@ function index() {
         </div>
         <div className='links-page'>
             <Image className='links-logo' src='/images/logo2.png' width='200' height='160' />
+            <p className='links-sub'>Criamos com excelência!</p>
 
             <div className='links-container'>   
                 <a className='link-l' href='https://wa.me/5524981288319' target='_blank'>
@@ -24,6 +25,9 @@ function index() {
                     Site Oficial
                 </Link>
             </div>
+        </div>
+        <div className="links-footer">
+            <p>Nova MP Engenharia  ©2023 Todos os Direitos Reservados</p>
         </div>
     </>
   )
